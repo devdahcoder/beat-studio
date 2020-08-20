@@ -1,0 +1,589 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+a, li, button {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  color: #ffffff;
+}
+
+.header-bg {
+  background-color: #2b2835;
+}
+
+.header-bg header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0;
+  width: 90%;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.header-bg header .logo {
+  cursor: pointer;
+}
+
+.header-bg header ul {
+  list-style: none;
+}
+
+.header-bg header ul li {
+  display: inline-block;
+  padding: 0 50px;
+}
+
+.header-bg .main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.header-bg .main .image-main img {
+  width: 100%;
+}
+
+.header-bg .main .main-content {
+  color: #ffffff;
+}
+
+.header-bg .main .main-content .main-desc {
+  margin-top: 11.4em;
+  width: 80%;
+  line-height: 1.3em;
+}
+
+.header-bg .main .main-content .main-desc .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 80%;
+}
+
+.header-bg .main .main-content .main-desc .header-h1 {
+  margin: 10px 0;
+  color: blue;
+  font-size: 70px;
+  font-weight: 200;
+}
+
+.header-bg .main .main-content .main-desc p {
+  margin: 12px 0;
+}
+
+.header-bg .main .main-content .main-desc .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  color: black;
+}
+
+.header-bg .main .main-content .main-desc .price button {
+  width: 170px;
+  height: 41px;
+  background: #ffc700;
+  border: none;
+  border-radius: 100vh;
+  color: red;
+}
+
+.powerbeats-header-bg {
+  background-color: #fbfcff;
+}
+
+.powerbeats-header-bg header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.powerbeats-header-bg header .logo {
+  cursor: pointer;
+}
+
+.powerbeats-header-bg header ul {
+  list-style: none;
+}
+
+.powerbeats-header-bg header ul li {
+  display: inline-block;
+  padding: 0 50px;
+}
+
+.powerbeats-header-bg header ul li a {
+  color: #787878;
+}
+
+.powerbeats-header-bg .power-main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.powerbeats-header-bg .power-main .image-main img {
+  width: 100%;
+}
+
+.powerbeats-header-bg .power-main .main-content {
+  color: grey;
+}
+
+.powerbeats-header-bg .power-main .main-content .main-desc {
+  margin-top: 5em;
+  width: 80%;
+  line-height: 1.3em;
+}
+
+.powerbeats-header-bg .power-main .main-content .main-desc .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 90%;
+}
+
+.powerbeats-header-bg .power-main .main-content .main-desc .icons .image {
+  text-align: center;
+}
+
+.powerbeats-header-bg .power-main .main-content .main-desc .header-h1 {
+  margin: 10px 0;
+  font-size: 70px;
+  font-weight: 200;
+  color: #030303;
+}
+
+.powerbeats-header-bg .power-main .main-content .main-desc p {
+  margin: 12px 0;
+  color: #666666;
+}
+
+.powerbeats-header-bg .power-main .main-content .main-desc .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  color: black;
+}
+
+.powerbeats-header-bg .power-main .main-content .main-desc .price button {
+  width: 170px;
+  height: 41px;
+  background: #ff4642;
+  border: none;
+  border-radius: 100vh;
+  color: #ffffff;
+}
+
+.powerbeats-header-bg .power-main .main-content .main-desc .footer p {
+  color: #ff4642;
+}
+
+.unbox-header-bg {
+  background-color: #ffc700;
+}
+
+.unbox-header-bg header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.unbox-header-bg header .logo {
+  cursor: pointer;
+}
+
+.unbox-header-bg header ul {
+  list-style: none;
+}
+
+.unbox-header-bg header ul li {
+  display: inline-block;
+  padding: 0 50px;
+}
+
+.unbox-header-bg header ul li a {
+  color: #ffffff;
+}
+
+.unbox-header-bg .unbox-main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5em;
+}
+
+.unbox-header-bg .unbox-main .image-main {
+  position: relative;
+  margin-right: -5em;
+}
+
+.unbox-header-bg .unbox-main .image-main img {
+  width: 100%;
+}
+
+.unbox-header-bg .unbox-main .main-content {
+  color: grey;
+}
+
+.unbox-header-bg .unbox-main .main-content .main-desc {
+  width: 90%;
+  line-height: 1.3em;
+}
+
+.unbox-header-bg .unbox-main .main-content .main-desc .unbox-header-typo {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+.unbox-header-bg .unbox-main .main-content .main-desc .header-h1 {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+.unbox-header-bg .unbox-main .main-content .main-desc .header-h1 h1 {
+  margin: 10px 0;
+  font-size: 70px;
+  font-weight: 200;
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+.unbox-header-bg .unbox-main .main-content .main-desc .typo1,
+.unbox-header-bg .unbox-main .main-content .main-desc .typo2 {
+  margin: 1em 0;
+  color: #030303;
+  padding-left: 14em;
+}
+
+.unbox-header-bg .unbox-main .main-content .main-desc .typo1 p,
+.unbox-header-bg .unbox-main .main-content .main-desc .typo2 p {
+  line-height: 1.5em;
+}
+
+.unbox-header-bg .unbox-main .main-content .main-desc .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.unbox-header-bg .unbox-main .main-content .main-desc .icons .image {
+  text-align: center;
+}
+
+.unbox-header-bg .unbox-main .main-content .main-desc .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+  color: black;
+}
+
+.unbox-header-bg .unbox-main .main-content .main-desc .price button {
+  width: 170px;
+  height: 41px;
+  background: #030300;
+  border: none;
+  border-radius: 100vh;
+  color: #ffffff;
+}
+
+.unbox-header-bg .unbox-main .main-content .main-desc .footer p {
+  color: #ffffff;
+  margin: 12px 0;
+}
+
+.pill-header-bg {
+  background-color: #fbfcff;
+}
+
+.pill-header-bg header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.pill-header-bg header .logo {
+  cursor: pointer;
+}
+
+.pill-header-bg header ul {
+  list-style: none;
+}
+
+.pill-header-bg header ul li {
+  display: inline-block;
+  padding: 0 50px;
+}
+
+.pill-header-bg header ul li a {
+  color: #787878;
+}
+
+.pill-header-bg .pill-main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.pill-header-bg .pill-main .image-main img {
+  width: 100%;
+}
+
+.pill-header-bg .pill-main .main-content {
+  color: #ffffff;
+}
+
+.pill-header-bg .pill-main .main-content .main-desc {
+  margin-top: 8.4em;
+  width: 80%;
+  line-height: 1.3em;
+  color: #666666;
+}
+
+.pill-header-bg .pill-main .main-content .main-desc .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 80%;
+}
+
+.pill-header-bg .pill-main .main-content .main-desc .header-h1 {
+  margin: 10px 0;
+  color: #030303;
+  font-size: 70px;
+  font-weight: 200;
+}
+
+.pill-header-bg .pill-main .main-content .main-desc p {
+  margin: 12px 0;
+}
+
+.pill-header-bg .pill-main .main-content .main-desc .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  color: black;
+}
+
+.pill-header-bg .pill-main .main-content .main-desc .price button {
+  width: 170px;
+  height: 41px;
+  background: #ff4642;
+  border: none;
+  border-radius: 100vh;
+  color: #ffffff;
+}
+
+.pill-header-bg .pill-main .main-content .main-desc .footer p {
+  color: #ff4642;
+}
+
+.earpiece-header-bg {
+  background-color: #ffc700;
+}
+
+.earpiece-header-bg header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.earpiece-header-bg header .logo {
+  cursor: pointer;
+}
+
+.earpiece-header-bg header ul {
+  list-style: none;
+}
+
+.earpiece-header-bg header ul li {
+  display: inline-block;
+  padding: 0 50px;
+}
+
+.earpiece-header-bg header ul li a {
+  color: #ffffff;
+}
+
+.earpiece-header-bg .pill-main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.earpiece-header-bg .pill-main .image-main img {
+  width: 100%;
+}
+
+.earpiece-header-bg .pill-main .main-content {
+  color: #ffffff;
+}
+
+.earpiece-header-bg .pill-main .main-content .main-desc {
+  margin-top: 6em;
+  width: 80%;
+  line-height: 1.3em;
+  color: #666666;
+}
+
+.earpiece-header-bg .pill-main .main-content .main-desc .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 80%;
+}
+
+.earpiece-header-bg .pill-main .main-content .main-desc .header-h1 {
+  margin: 10px 0;
+  color: #030303;
+  font-size: 70px;
+  font-weight: 200;
+}
+
+.earpiece-header-bg .pill-main .main-content .main-desc p {
+  margin: 12px 0;
+  color: #666666;
+}
+
+.earpiece-header-bg .pill-main .main-content .main-desc .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  color: black;
+}
+
+.earpiece-header-bg .pill-main .main-content .main-desc .price button {
+  width: 170px;
+  height: 41px;
+  background: #030303;
+  border: none;
+  border-radius: 100vh;
+  color: #ffffff;
+}
+
+.earpiece-header-bg .pill-main .main-content .main-desc .footer p {
+  color: #ff4642;
+}
+/*# sourceMappingURL=index.css.map */
